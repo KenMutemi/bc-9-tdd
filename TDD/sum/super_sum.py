@@ -12,11 +12,6 @@ def super_sum(*args):
             total += item
 
         elif isinstance(item, float):
-            for number in item:
-                sum_total += number
+            total += item
 
-    return float(sum_total)
-
-    if isinstance(a, str) and isinstance(b, str) is str:
-        raise TypeError
-
+    return total
